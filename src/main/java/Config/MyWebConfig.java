@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class MyWebConfig {
     @Bean
     public RestTemplate REST11TEMPLATE(){
+        System.out.println("Hi there");
         return new RestTemplate();
     }
 
