@@ -8,6 +8,7 @@ class ContentCalenderApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Hello update");
 	}
 
 }
